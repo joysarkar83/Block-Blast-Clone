@@ -1,0 +1,547 @@
+/* Blue #4267b2
+Light Blue #3498db
+Yellow #ffd700 */
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #4267b2;
+}
+
+
+
+
+
+
+/* Logo design */
+#navLogoAndName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+[alt="Block Blast Logo"]{
+    height: 35px;
+}
+#NameElems{
+    font-family: 'Passion One';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6em;
+}
+#webName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.01em;
+    transform: rotateX(25deg);
+}
+#block{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.405);
+    font-size: 1.5em;
+    color: #ffd700;
+}
+#blast{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.405);
+    font-size: 1.5em;
+    color: #3498db;
+}
+#underline1{
+    border-radius: 0.1em;
+    height: 0.1em;
+    width: 100%;
+    background-color: #7b897c;
+}
+#underline2{
+    border-radius: 0.1em;
+    height: 0.1em;
+    width: 100%;
+    background-color: #3e76be;
+}
+
+
+
+
+
+
+/* Navigation Bar */
+nav{
+    margin: auto;
+    height: 80px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbtns{
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.navbtns{
+    font-weight: 550;
+    text-decoration: none;
+    color: white;
+}
+#playnowbtn{
+    width: 140px;
+    font-family: 'Baloo Bhai 2';
+    font-size: 20px;
+    font-weight: 700;
+    padding: 7px 18px;
+    border-radius: 40px;
+    border: none;
+    color: #2c3b50;
+    background-color: #ffd700;
+}
+#playnowbtn:hover{
+    background-color: #e67e22;
+}
+
+
+
+
+
+#justName{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+#NameElemsLarge{
+    font-family: 'Passion One';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.35em;
+}
+#webNameLarge{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    gap: 2px;
+    transform: rotateX(25deg);
+}
+#blockLarge{
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.405);
+    color: #ffd700;
+}
+#blastLarge{
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.405);
+    color: #3498db;
+}
+#underline1Large{
+    border-radius: 0.1em;
+    height: 4.5px;
+    width: 100%;
+    background-color: #7b897c;s
+}
+#underline2Large{
+    border-radius: 0.1em;
+    height: 4.5px;
+    width: 100%;
+    background-color: #3e76be;
+}
+
+
+
+
+#headtexts{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tagline1{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: system-ui;
+}
+#tagline2{
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+#tagline3{
+    color: rgba(255, 255, 255, 0.77);
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Baloo Bhai 2';
+}
+
+
+
+#grid1{
+    margin: auto;
+    margin-top: 70px;
+    width: 80%;
+}
+#featuresGrid{
+    height: 500px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.grid1element{
+    background-color: #5576ba;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px 25px 10px 25px;
+    margin: 10px;
+    border: 1px solid #7d92be;
+    border-radius: 20px;
+    transition: all 0.15s ease-in-out;
+}
+.grid1element:hover{
+    transform: scale(1.02);
+}
+.outerbox{
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerbox{
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+}
+.outerbox img{
+    transform: scale(1.3);
+}
+
+#heading{
+    font-family: 'Josefin Sans';
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+}
+#desc{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.667);
+}
+
+.innerbox1{
+    background-color: #ff7f50;
+}
+.outerbox1{
+    background-color: #7778a5;
+}
+.innerbox2{
+    background-color: #9b59b6;
+}
+.outerbox2{
+    background-color: #6371b9;
+}
+.outerbox3{
+    background-color: #2ecc71;
+}
+.outerbox4{
+    background-color: #ffd700;
+}
+.outerbox5{
+    background-color: #9b59b6;
+}
+.outerbox6{
+    background-color: #2ecc71;
+}
+
+
+
+
+#instructionSection, #reviewSection, #faqsection{
+    margin: auto;
+    margin-top: 150px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#instructionText, #reviewTexts, #faqtexts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#instructionText p:nth-child(1),#reviewheading1, #faqheading1{
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+#instructionText p:nth-child(2),#reviewheading2, #faqheading2{
+    color: rgba(255, 255, 255, 0.77);
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Baloo Bhai 2';
+}
+#instructionGrid{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 0.5fr 1fr 1fr ;
+}
+#grid2element{
+    background-color: #5576ba;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    transition: all 0.15s ease-in-out;
+}
+#grid2element:hover{
+    transform: scale(1.02);
+}
+#grid2right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.outerboxgrid2{
+    font-size: 30px;
+    font-family: 'Baloo Bhai 2';
+    color: yellow;
+    font-weight: 800;
+    transform: scaleX(0.8);
+    background-color: #778a95;
+}
+.grid2Lastelement{
+    grid-row: 6/8;
+}
+.grid2LastelementDesc{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+
+
+#reviewSection{
+    width: 80%;
+}
+#reviewheading1{
+    font-size: 40px;
+    font-weight: 700;
+}
+#mainreview{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 450px;
+    height: 280px;
+    background-color: #5e7ebd;
+    gap: 20px;
+    border-radius: 15px;
+    border: 1px solid #8aa1cb;
+}
+#mainreviewStars{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#mainrating{
+    color: #ffd700;
+    font-family: 'Josefin Sans';
+    font-size: 100px;
+    font-weight: 900;
+}
+#mainreviewstats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+#mainReviewStatsLeft,#mainReviewStatsRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#mainreviewinfo{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.667);
+}
+#mainReviewStats1{
+    color: #ffd700;
+    font-family: 'Josefin Sans';
+    font-size: 30px;
+    font-weight: 900;
+}
+#mainReviewStats2,#grid3elementreviews,#grid3elementdesignation,#grid3elementhours, #verification, #footcol1text2, #footcol2text2{
+    color: rgba(255, 255, 255, 0.77);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Josefin Sans';
+}
+
+#reviewGrid{
+    margin-top: 30px;
+    width: 100%;
+    height: 620px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#grid3element{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #5576ba;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    transition: all 0.15s ease-in-out;
+}
+#grid3element:hover{
+    transform: scale(1.02);
+}
+#grid3elementusername{
+    font-family: 'Josefin Sans';
+    color: #ffd700;
+    font-size: 18px;
+    font-weight: 400;
+}
+#grid3elementdesignation{
+    color: rgba(255, 255, 255, 0.656);
+}
+#userinfo div{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+
+#verification{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+#faqgrid{
+    margin-top: 50px;
+    height: 1620px;
+    width: 75%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#grid4element{
+    border: 1px solid #5a78b0;
+    background-color: #5576ba;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: all 0.15s ease-in-out;
+}
+#grid4element:hover{
+    transform: scale(1.02);
+}
+#question{
+    color: #ffd700;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Josefin Sans';
+}
+#answer{
+    color: rgba(255, 255, 255, 0.77);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Josefin Sans';
+}
+
+
+
+
+
+/* footer */
+#bar{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    width: 100%;
+    height: 1px;
+    background-color: #3498db;
+}
+footer{
+    width: 100%
+}
+#footsection{
+    margin: auto;
+    width: 90%;
+    height: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Josefin Sans';
+}
+#footgrid{
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#footcol1, #footcol2, #footcol3, #footcol4{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+#footcol1text1, #footgridheadings{
+    font-size: 24px;
+    font-weight: 700;
+}
+#footgridheadings{
+    font-weight: 500;
+}
+#footcollinks{
+    display: flex;
+    gap: 15px;
+}
+#footcol3text2{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    color: rgba(255, 255, 255, 0.77);
+}
+#footcol1text2, #footcol2text2{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+}
+[imglinks]{
+    transform: scale(1.2);
+}
